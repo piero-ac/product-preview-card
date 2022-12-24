@@ -56,3 +56,20 @@ table {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 95%;
+    margin: 2em 0;
+}
+
+#product-img-section, #product-img-section img {
+    width: 100%;
+    height: 100%;
+}
